@@ -1,0 +1,18 @@
+.Characters {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 40px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.Characters__card {
+  background-color: #09f;
+  color: #fff;
+}
+
+.Characters__card img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
