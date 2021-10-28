@@ -7,12 +7,22 @@
 }
 
 .Characters__card {
+  padding: 0 0 20px;
+  height: 280px;
   background-color: #09f;
   color: #fff;
 }
 
 .Characters__card img {
-  height: 180px;
+  height: 80%;
   width: 100%;
   object-fit: cover;
+}
+
+.Characters__card h2 {
+  width: 90%;
+  margin: 5px auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
